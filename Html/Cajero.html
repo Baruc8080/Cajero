@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/cajero.css">
+  <title>Cajero Automático</title>
+</head>
+<body>
+    <div id="header">
+        <div id="bank-name">BatiBanco</div>
+        <div><a class="logout" href="../Html/index.html">Salir</a></div>
+      </div>
+      <div id="dashboard">
+        <div id="customer-info">
+          <h2>Jefferson Gutierritos</h2>
+          <p id="customer-balance">Cantidad de Dinero: $50000</p>
+        </div>
+        <div id="transaction-box">
+          <input type="text" id="transaction-amount" placeholder="Ingrese la cantidad">
+          <div class="action-buttons">
+            <button class="action-button" id="deposit-button">Depositar</button>
+            <button class="action-button" id="withdraw-button">Retirar</button>
+            <button class="action-button" id="generate-cv-button">Generar CV</button>
+            <button class="action-button" id="block-button">Bloquear</button>
+          </div>
+        </div>
+      </div>
+      <div id="footer">Gana depositando mil pesos por día</div>
+
+  <script src="../JS/cajero.js"></script>
+</body>
+</html>
